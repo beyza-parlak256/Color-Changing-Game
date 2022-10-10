@@ -416,6 +416,7 @@ MonoBehaviour:
   Green: {fileID: 2100000, guid: b90a040ee02c6944b9a8a6a6c1abdf2c, type: 2}
   Orange: {fileID: 2100000, guid: d52f9f03aab7dcd4c895e1451beebfac, type: 2}
   Purple: {fileID: 2100000, guid: d77b77f4456023547895628967a4e4ca, type: 2}
+  Gray: {fileID: 2100000, guid: b287162e6dcaf2f44832123c562afc92, type: 2}
   Red: {fileID: 2100000, guid: a968249a6bdf5c54c9f8caf7840bcb2a, type: 2}
   Yellow: {fileID: 2100000, guid: cba6d0d4b5cc9cf41b1e12ebbbe0a359, type: 2}
 --- !u!1 &2041417971
@@ -533,5 +534,6 @@ MonoBehaviour:
   Green: {fileID: 2100000, guid: b90a040ee02c6944b9a8a6a6c1abdf2c, type: 2}
   Orange: {fileID: 2100000, guid: d52f9f03aab7dcd4c895e1451beebfac, type: 2}
   Purple: {fileID: 2100000, guid: d77b77f4456023547895628967a4e4ca, type: 2}
+  Gray: {fileID: 2100000, guid: b287162e6dcaf2f44832123c562afc92, type: 2}
   Red: {fileID: 2100000, guid: a968249a6bdf5c54c9f8caf7840bcb2a, type: 2}
   Yellow: {fileID: 2100000, guid: cba6d0d4b5cc9cf41b1e12ebbbe0a359, type: 2}

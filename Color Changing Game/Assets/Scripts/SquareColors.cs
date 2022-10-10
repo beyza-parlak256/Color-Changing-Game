@@ -5,7 +5,7 @@ using UnityEngine;
 public class SquareColors : MonoBehaviour
 {
     MeshRenderer mesh;
-    public Material Black, Blue, Green, Orange, Purple, Red, Yellow;
+    public Material Black, Blue, Green, Orange, Purple, Gray, Red, Yellow;
     void Start()
     {
         mesh = GetComponent<MeshRenderer>();
@@ -15,13 +15,16 @@ public class SquareColors : MonoBehaviour
     }
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            GiveColor();
+        }
     }
 
     void GiveColor()
     {
-        // 7 renk var, 8 ye kadar olaný alýr
-        int random = Random.Range(1, 8);
+        // 8 renk var, 9 ye kadar olaný alýr
+        int random = Random.Range(1, 9);
 
         switch (random)
         {
@@ -45,6 +48,9 @@ public class SquareColors : MonoBehaviour
                 break;
             case 7:
                 mesh.material = Black;
+                break;
+            case 8:
+                mesh.material = Gray;
                 break;
 
         }
