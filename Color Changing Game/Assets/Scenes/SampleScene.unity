@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.47378963, g: 0.8584906, b: 0.75885355, a: 0}
+  m_BackGroundColor: {r: 0.7877358, g: 1, b: 0.945851, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 1511090274}
   - component: {fileID: 1511090273}
   - component: {fileID: 1511090272}
+  - component: {fileID: 1511090276}
   m_Layer: 0
   m_Name: Cube2
   m_TagString: Untagged
@@ -398,6 +399,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511090276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511090271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76fd8c98740d2e46bd1a2bbd5e858ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Black: {fileID: 2100000, guid: 5a594170e49672740b02610787b142c2, type: 2}
+  Blue: {fileID: 2100000, guid: e25cd28a54b1d0341b8ddc1c26748bb7, type: 2}
+  Green: {fileID: 2100000, guid: b90a040ee02c6944b9a8a6a6c1abdf2c, type: 2}
+  Orange: {fileID: 2100000, guid: d52f9f03aab7dcd4c895e1451beebfac, type: 2}
+  Purple: {fileID: 2100000, guid: d77b77f4456023547895628967a4e4ca, type: 2}
+  Red: {fileID: 2100000, guid: a968249a6bdf5c54c9f8caf7840bcb2a, type: 2}
+  Yellow: {fileID: 2100000, guid: cba6d0d4b5cc9cf41b1e12ebbbe0a359, type: 2}
 --- !u!1 &2041417971
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,10 +528,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f76fd8c98740d2e46bd1a2bbd5e858ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Black: {fileID: 0}
-  Blue: {fileID: 0}
-  Green: {fileID: 0}
-  Orange: {fileID: 0}
-  Purple: {fileID: 0}
-  Red: {fileID: 0}
-  Yellow: {fileID: 0}
+  Black: {fileID: 2100000, guid: 5a594170e49672740b02610787b142c2, type: 2}
+  Blue: {fileID: 2100000, guid: e25cd28a54b1d0341b8ddc1c26748bb7, type: 2}
+  Green: {fileID: 2100000, guid: b90a040ee02c6944b9a8a6a6c1abdf2c, type: 2}
+  Orange: {fileID: 2100000, guid: d52f9f03aab7dcd4c895e1451beebfac, type: 2}
+  Purple: {fileID: 2100000, guid: d77b77f4456023547895628967a4e4ca, type: 2}
+  Red: {fileID: 2100000, guid: a968249a6bdf5c54c9f8caf7840bcb2a, type: 2}
+  Yellow: {fileID: 2100000, guid: cba6d0d4b5cc9cf41b1e12ebbbe0a359, type: 2}
