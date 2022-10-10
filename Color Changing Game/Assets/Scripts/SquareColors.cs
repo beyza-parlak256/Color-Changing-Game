@@ -6,6 +6,7 @@ public class SquareColors : MonoBehaviour
 {
     MeshRenderer mesh;
     public Material Black, Blue, Green, Orange, Purple, Gray, Red, Yellow;
+    public AudioSource colorAudio;
     void Start()
     {
         mesh = GetComponent<MeshRenderer>();
@@ -18,6 +19,7 @@ public class SquareColors : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             GiveColor();
+            colorAudio.Play();
         }
     }
 

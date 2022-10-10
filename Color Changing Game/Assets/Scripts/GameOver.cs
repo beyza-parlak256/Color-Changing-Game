@@ -11,7 +11,6 @@ public class GameOver : MonoBehaviour
         if(square1.material.name == square2.material.name)
         {
             Debug.Log("You win, the colors are the same...");
-            Time.timeScale = 0;
         }
     }
 }
